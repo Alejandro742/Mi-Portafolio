@@ -1,0 +1,19 @@
+.servicio ul li{
+    list-style: none;
+    text-align: left;
+    margin-bottom: .6rem;
+    font-size: 1.2rem;
+}
+.servicio ul li:last-of-type{
+    margin-bottom: 0;
+}
+.servicio ul{
+    font-size: 1.5rem;
+}
+.servicio ul i{
+    font-size: 1.3rem;
+}
+
+.servicio ul i::after{
+    content: "\2007"
+}
