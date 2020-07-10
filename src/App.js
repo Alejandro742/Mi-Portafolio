@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Hero from './components/Hero';
 import Servicio from './components/Servicio';
-import serviciosInfo from './servicioInfo.json';
+import serviciosInfo from './datos/servicioInfo.json';
 
 function App() {
 
