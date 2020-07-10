@@ -85,6 +85,14 @@ p{
 @media screen and (min-width: 768px) {
   .listado {
     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .listado {
+    display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 2rem;
   }
