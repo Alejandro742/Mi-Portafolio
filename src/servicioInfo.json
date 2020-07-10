@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "BackEnd",
+    "descripcion": "lorejkashfjsdfsdf sdfijakd asdfuhsdf akdhasdfs dfkjsdnfas di sdkfjn isof sdfiohasdfhsdfjh",
+    "tecnologias": ["MongoDB", "MySql", "PHP", "NodeJS", "Creación CRUD"]
+  },
+  {
+    "id": 2,
+    "titulo": "FrontEnd",
+    "descripcion": "lorejkashfjsdfsdf sdfijakd asdfuhsdf akdhasdfs dfkjsdnfas di sdkfjn isof sdfiohasdfhsdfjh",
+    "tecnologias": [
+      "HTML",
+      "CSS",
+      "React (Básico-Intermedio)",
+      "Bootstrap",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Dev",
+    "descripcion": "lorejkashfjsdfsdf sdfijakd asdfuhsdf akdhasdfs dfkjsdnfas di sdkfjn isof sdfiohasdfhsdfjh",
+    "tecnologias": ["Git", "GitHub", "Linux", "Terminal", "C++"]
+  }
+]
