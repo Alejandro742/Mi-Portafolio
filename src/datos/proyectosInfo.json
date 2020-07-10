@@ -1,32 +1,37 @@
 [
   {
     "id": 1,
-    "tiulo": "Agenda de Contactos",
-    "descripcion": "Agenda de contactos hecha con PHP,MySql y JS, con las métodos CRUD.",
-    "src": "agenda_php.png"
+    "titulo": "Agenda de Contactos",
+    "descripcion": "Agenda de contactos hecha con PHP,MySql y JS, con las métodos CRUD que te permite editar, eliminar, crear y obtener contactos.",
+    "src": "agenda_php.png",
+    "github":"https://github.com/Alejandro742/agenda_php"
   },
   {
     "id": 2,
-    "tiulo": "Asesorías Universitarias",
-    "descripcion": "Proyecto para crear y tomar asesorías dentro de centros universitarios",
-    "src": "asesorias.png"
+    "titulo": "Asesorías Universitarias",
+    "descripcion": "Aplicación Web hecha con NodeJS y MySql para crear y tomar asesorías dentro de centros universitarios.",
+    "src": "asesorias.png",
+    "github":"https://github.com/Alejandro742/AsesoriasUniversitariasApp"
   },
   {
     "id": 3,
-    "tiulo": "Buscador de Canciones",
-    "descripcion": "Aplicación que busca letras de canciones información de la banda o cantante.",
-    "src": "canciones_app.png"
+    "titulo": "Buscador de Canciones",
+    "descripcion": "Aplicación que consulta dos API's, una para obtener la letra de alguna canción y otra para obtener información de la banda.",
+    "src": "canciones_app.png",
+    "github":"https://github.com/Alejandro742/lyrics-info_artists_app"
   },
   {
     "id": 4,
-    "tiulo": "Clone de Instagram",
-    "descripcion": "Recreación de login de la aplicación Instagram.",
-    "src": "instagram_login.png"
+    "titulo": "Clon de Instagram",
+    "descripcion": "Recreación de login de la aplicación Instagram hecha con CSS, JS y HTML.",
+    "src": "instagram_login.png",
+    "github":"https://github.com/Alejandro742/instagram-clone-login"
   },
   {
     "id": 5,
-    "tiulo": "Rick & Morty App",
-    "descripcion": "Aplicación que consulta la API de Rick & Morty",
-    "src": "rick_morty_app.png"
+    "titulo": "Rick & Morty App",
+    "descripcion": "Aplicación que consulta la API de Rick & Morty y extrae la información básica del personaje buscado.",
+    "src": "rick_morty_app.png",
+    "github":"https://github.com/Alejandro742/Rick-Morty_App_React"
   }
 ]
