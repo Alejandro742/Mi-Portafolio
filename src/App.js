@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Hero from './components/Hero';
+import Servicio from './components/Servicio';
+import serviciosInfo from './servicioInfo.json';
 
 function App() {
+
+    
   return (
-    <div className="App">
-    </div>
+    <Fragment>
+      <Hero />
+      <div className="servicios contenedor">
+        {serviciosInfo.map(infoServicio => <Servicio key = {infoServicio.id} infoServicio = {infoServicio}/>)}
+      </div>
+    </Fragment>
   );
 }
-
 export default App;
