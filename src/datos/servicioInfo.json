@@ -2,13 +2,13 @@
   {
     "id": 1,
     "titulo": "BackEnd",
-    "descripcion": "lorejkashfjsdfsdf sdfijakd asdfuhsdf akdhasdfs dfkjsdnfas di sdkfjn isof sdfiohasdfhsdfjh",
+    "descripcion": "Experiencia  en lenguajes de backend como PHP, JS(NodeJS) y bases de datos como MySql y MongoDB.",
     "tecnologias": ["MongoDB", "MySql", "PHP", "NodeJS", "Creación CRUD"]
   },
   {
     "id": 2,
     "titulo": "FrontEnd",
-    "descripcion": "lorejkashfjsdfsdf sdfijakd asdfuhsdf akdhasdfs dfkjsdnfas di sdkfjn isof sdfiohasdfhsdfjh",
+    "descripcion": "Conocimiento, Implementación y Menejo de tecnologías para desarrollo de FrontEnd.",
     "tecnologias": [
       "HTML",
       "CSS",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "titulo": "Dev",
-    "descripcion": "lorejkashfjsdfsdf sdfijakd asdfuhsdf akdhasdfs dfkjsdnfas di sdkfjn isof sdfiohasdfhsdfjh",
+    "descripcion": "Maenjo de controladores de versiones como lo son Git y GitHub. Conocimiento en SO tipo Unix.",
     "tecnologias": ["Git", "GitHub", "Linux", "Terminal", "C++"]
   }
 ]
