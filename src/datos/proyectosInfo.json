@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "tiulo": "Agenda de Contactos",
+    "descripcion": "Agenda de contactos hecha con PHP,MySql y JS, con las métodos CRUD.",
+    "src": "agenda_php.png"
+  },
+  {
+    "id": 2,
+    "tiulo": "Asesorías Universitarias",
+    "descripcion": "Proyecto para crear y tomar asesorías dentro de centros universitarios",
+    "src": "asesorias.png"
+  },
+  {
+    "id": 3,
+    "tiulo": "Buscador de Canciones",
+    "descripcion": "Aplicación que busca letras de canciones información de la banda o cantante.",
+    "src": "canciones_app.png"
+  },
+  {
+    "id": 4,
+    "tiulo": "Clone de Instagram",
+    "descripcion": "Recreación de login de la aplicación Instagram.",
+    "src": "instagram_login.png"
+  },
+  {
+    "id": 5,
+    "tiulo": "Rick & Morty App",
+    "descripcion": "Aplicación que consulta la API de Rick & Morty",
+    "src": "rick_morty_app.png"
+  }
+]
