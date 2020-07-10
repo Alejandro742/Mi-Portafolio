@@ -5,7 +5,7 @@ const Hero = () => {
       <div className="hero">
         <div className="contenedor">
           <div className="contenido">
-            <h1 className="titulo">Desarrollo Web</h1>
+            <h1 className="titulo">Alejandro Barba</h1>
             <p>Desarrollador Web</p>
           </div>
         </div>
