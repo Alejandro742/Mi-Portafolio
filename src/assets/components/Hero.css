@@ -1,0 +1,32 @@
+/* hero */
+.hero {
+    background-image: url(../img/fondo_02.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero .contenedor{
+    /* display: grid;
+    align-content: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hero .contenido{
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--claro);
+    padding: 2rem;
+}
+@media screen and (min-width: 768px) {
+    .hero .contenido{
+        background-color: unset
+    }
+}
+.titulo{
+    margin: 0;
+}
+.subtitulo{
+    font-size: 1.6rem;
+}
