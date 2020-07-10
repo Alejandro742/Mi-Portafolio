@@ -15,7 +15,7 @@ function App() {
       <div className="servicios contenedor">
         {serviciosInfo.map(infoServicio => <Servicio key = {infoServicio.id} infoServicio = {infoServicio}/>)}
       </div>
-      <main className="portafolio contenedor">
+      <main className="portafolio">
         <h2>Mi Portafolio</h2>
         <div id="listado" className="listado">
           {proyectosInfro.map(proyecto => <Proyecto key = {proyecto.id} proyecto = {proyecto}/>)}
