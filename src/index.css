@@ -19,11 +19,10 @@ body{
   font-family: var(--fuenteSecundaria);
 }
 
-/* .contenedor{
-  max-width: width 1100px;
-  width: 90%;
+.contenedor{
+  max-width:  1100px;
   margin: 0 auto;
-} */
+}
 img{
   max-width: 100%;
 }
@@ -69,5 +68,24 @@ p{
       display: grid;
       grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
       column-gap: 2rem;
+  }
+}
+
+/* PROYECTOS */
+.portafolio{
+  padding: 1rem;
+  text-align: center;
+}
+
+.listado {
+  margin-top: 2rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  .listado {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
   }
 }
