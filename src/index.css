@@ -52,7 +52,7 @@ p{
 .servicios h2::after{
   height: .5rem;
   width: 7rem;
-  background-color: var(--primario);
+  background-color: rebeccapurple;
   content: '';
   display: block;
   margin: 1rem auto 0 auto;

@@ -3,27 +3,24 @@ import {} from "../../assets/components/Servicio.css";
 
 const Servicio = ({ infoServicio }) => {
   const { titulo, descripcion, tecnologias } = infoServicio;
-  let classFontAwesome = "";
-  if (titulo === "BackEnd") {
-    classFontAwesome = "fas fa-database";
-  } else if (titulo === "FrontEnd") {
-    classFontAwesome = "fab fa-css3-alt";
-  } else {
-    classFontAwesome = "fas fa-code";
-  }
+
 
   return (
     <div className="servicio">
       <h2>{titulo}</h2>
-      <i className={classFontAwesome}></i>
-      <p>{descripcion}</p>
-      <ul>
+      <p className="servicio__descripcion">{descripcion}</p>
+      <div className="servicio__tecs">
         {tecnologias.map((tec) => (
-          <li key = {tec}>
-            <i className="fas fa-code-branch"></i>{tec}
-          </li>
+          <div className="servicio__tec" key={tec}>
+            <img 
+              src={require(`../../assets/iconos/${tec}.png`)}
+              alt={`${tec}_icono`}
+              className="servicio__icono"
+            />
+            <p className="servicio__nombre">{tec}</p>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

@@ -2,8 +2,8 @@
   {
     "id": 1,
     "titulo": "BackEnd",
-    "descripcion": "Experiencia  en lenguajes de backend como PHP, JS(NodeJS) y bases de datos como MySql y MongoDB.",
-    "tecnologias": ["MongoDB", "MySql", "PHP", "NodeJS", "Creación CRUD"]
+    "descripcion": "Experiencia  en lenguajes de backend tales como PHP, NodeJS y bases de datos sql y Nsql",
+    "tecnologias": ["MongoDB", "MySql", "PHP", "NodeJS","API"]
   },
   {
     "id": 2,
@@ -12,15 +12,17 @@
     "tecnologias": [
       "HTML",
       "CSS",
-      "React (Básico-Intermedio)",
+      "React",
       "Bootstrap",
-      "JavaScript"
+      "JavaScript",
+      "SASS",
+      "Pug"
     ]
   },
   {
     "id": 3,
     "titulo": "Dev",
-    "descripcion": "Maenjo de controladores de versiones como lo son Git y GitHub. Conocimiento en SO tipo Unix.",
-    "tecnologias": ["Git", "GitHub", "Linux", "Terminal", "C++"]
+    "descripcion": "Manejo de controladores de versiones como lo son Git, GitHub y Gitlab. Conocimiento en SO tipo Unix.",
+    "tecnologias": ["Git", "GitHub", "Linux", "C++","Gitlab"]
   }
 ]

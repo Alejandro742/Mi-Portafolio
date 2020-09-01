@@ -1,20 +1,21 @@
-.servicio ul li{
-    list-style: none;
-    margin-bottom: .6rem;
-    font-size: 1.2rem;
-    text-align: left;
+.servicio__descripcion{
+    margin-bottom: 50px;
 }
-
-.servicio ul li:last-of-type{
-    margin-bottom: 0;
+.servicio__tecs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
 }
-.servicio ul{
-    font-size: 1.5rem;
+.servicio__tec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
-.servicio ul i{
-    font-size: 1.3rem;
+.servicio__icono{
+    width: 50px;
 }
-
-.servicio ul i::after{
-    content: "\2007"
+.servicio__nombre{
+    font-size: 1rem;
+    margin: 0;
 }
