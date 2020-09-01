@@ -91,7 +91,9 @@ a{
 @media screen and (min-width: 768px) {
   .portafolio__listado {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
   }
 }
