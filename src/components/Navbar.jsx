@@ -30,7 +30,7 @@ const Navbar = () => {
           </li>
           <li className="navbar__option">
             <a href="/#" className="navbar__option-ahref">
-              About
+              About Me
             </a>
           </li>
           <li className="navbar__option">

@@ -84,6 +84,6 @@
     margin: 0;
   }
   .navbar__option:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
   }
 } 
