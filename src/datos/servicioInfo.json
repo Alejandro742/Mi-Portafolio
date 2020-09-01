@@ -2,13 +2,13 @@
   {
     "id": 1,
     "titulo": "BackEnd",
-    "descripcion": "Experiencia  en lenguajes de backend tales como PHP, NodeJS y bases de datos sql y Nsql",
-    "tecnologias": ["MongoDB", "MySql", "PHP", "NodeJS","API"]
+    "descripcion": "Experience in backend languages such as PHP,NodeJS and databses SQL & NSql",
+    "tecnologias": ["MongoDB", "MySql", "PHP", "NodeJS","API","Express"]
   },
   {
     "id": 2,
     "titulo": "FrontEnd",
-    "descripcion": "Conocimiento, Implementación y Menejo de tecnologías para desarrollo de FrontEnd.",
+    "descripcion": "Knowledge of frontend technologies such as frameworks, libraries and bundlers.",
     "tecnologias": [
       "HTML",
       "CSS",
@@ -16,13 +16,15 @@
       "Bootstrap",
       "JavaScript",
       "SASS",
-      "Pug"
+      "Pug",
+      "Webpack",
+      "TypeScript"
     ]
   },
   {
     "id": 3,
     "titulo": "Dev",
-    "descripcion": "Manejo de controladores de versiones como lo son Git, GitHub y Gitlab. Conocimiento en SO tipo Unix.",
+    "descripcion": "Technology management such as version controllers, low-level languages ​​and linux distros",
     "tecnologias": ["Git", "GitHub", "Linux", "C++","Gitlab"]
   }
 ]
