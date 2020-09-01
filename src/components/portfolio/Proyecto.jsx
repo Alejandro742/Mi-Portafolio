@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
-import {} from "../assets/components/Proyecto.css";
+import {} from "../../assets/components/Proyecto.css";
 
 const Proyecto = ({ proyecto }) => {
   const { titulo, descripcion, src, github } = proyecto;
   return (
     <Fragment>
       <div className="proyecto">
-        <img src={require(`../assets/img/${src}`)} alt={titulo} />
+        <img src={require(`../../assets/img/${src}`)} alt={titulo} />
         <div className="proyecto-contenido">
           <h3>{titulo}</h3>
           <p>{descripcion}</p>

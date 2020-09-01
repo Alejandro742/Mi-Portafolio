@@ -1,5 +1,8 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import {} from "../assets/components/Navbar.css";
+
+
 const Navbar = () => {
   function showMenu(e){
     const navbar = document.querySelector("#navbar");
@@ -24,19 +27,13 @@ const Navbar = () => {
         {/* navbar__options--showMenu */}
         <ul className="navbar__options" id="navbar">
           <li className="navbar__option">
-            <a href="/#" className="navbar__option-ahref">
-              Home
-            </a>
+          <Link to="/" className="navbar__option-ahref">Home</Link>
           </li>
           <li className="navbar__option">
-            <a href="/#" className="navbar__option-ahref">
-              About Me
-            </a>
+            <Link to="/aboutme" className="navbar__option-ahref">Aboutme</Link>
           </li>
           <li className="navbar__option">
-            <a href="/#" className="navbar__option-ahref">
-              Portfolio
-            </a>
+          <Link to="/portfolio" className="navbar__option-ahref">Portfolio</Link>
           </li>
         </ul>
       </div>
