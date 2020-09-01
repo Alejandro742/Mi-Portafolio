@@ -6,8 +6,8 @@ import proyectosInfro from '../../datos/proyectosInfo.json';
 const Proyectos = () => {
   return (
     <main className="portafolio">
-      <h2>Mi Portafolio</h2>
-      <div id="listado" className="listado">
+      <h1 className="portafolio__title">My Portfolio</h1>
+      <div id="listado" className="portafolio__listado">
         {proyectosInfro.map((proyecto) => (
           <Proyecto key={proyecto.id} proyecto={proyecto} />
         ))}

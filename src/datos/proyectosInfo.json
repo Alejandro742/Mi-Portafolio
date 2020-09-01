@@ -1,37 +1,40 @@
 [
   {
     "id": 1,
-    "titulo": "Agenda de Contactos",
-    "descripcion": "Agenda de contactos hecha con PHP,MySql y JS, con las métodos CRUD que te permite editar, eliminar, crear y obtener contactos.",
-    "src": "agenda_php.png",
-    "github":"https://github.com/Alejandro742/agenda_php"
+    "titulo": "Configurador de PC's",
+    "descripcion": "App para crear computadoras y armarlas con los componentes que eligas. La aplicación cuenta con registro, login y un CRUD para las computadoras y componentes.",
+    "src":"pc_configurator.png",
+    "github":"https://github.com/Alejandro742/pc_components_configurator",
+    "tecnologias":[
+      "PHP",
+      "JavaScript",
+      "MySql"
+    ]
   },
   {
     "id": 2,
     "titulo": "Asesorías Universitarias",
     "descripcion": "Aplicación Web hecha con NodeJS y MySql para crear y tomar asesorías dentro de centros universitarios.",
     "src": "asesorias.png",
-    "github":"https://github.com/Alejandro742/AsesoriasUniversitariasApp"
+    "github":"https://github.com/Alejandro742/AsesoriasUniversitariasApp",
+    "tecnologias":[
+      "NodeJS",
+      "Express",
+      "MySql",
+      "Bootstrap"
+    ]
   },
-  {
-    "id": 3,
-    "titulo": "Buscador de Canciones",
-    "descripcion": "Aplicación que consulta dos API's, una para obtener la letra de alguna canción y otra para obtener información de la banda.",
-    "src": "canciones_app.png",
-    "github":"https://github.com/Alejandro742/lyrics-info_artists_app"
-  },
-  {
-    "id": 4,
-    "titulo": "Clon de Instagram",
-    "descripcion": "Recreación de login de la aplicación Instagram hecha con CSS, JS y HTML.",
-    "src": "instagram_login.png",
-    "github":"https://github.com/Alejandro742/instagram-clone-login"
-  },
+
   {
     "id": 5,
     "titulo": "Rick & Morty App",
     "descripcion": "Aplicación que consulta la API de Rick & Morty y extrae la información básica del personaje buscado.",
     "src": "rick_morty_app.png",
-    "github":"https://github.com/Alejandro742/Rick-Morty_App_React"
+    "github":"https://github.com/Alejandro742/Rick-Morty_App_React",
+    "tecnologias":[
+      "React",
+      "JavaScript",
+      "CSS"
+    ]
   }
 ]

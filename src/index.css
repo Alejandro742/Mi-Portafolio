@@ -39,12 +39,15 @@ p{
   font-family: var(--fuentePrincipal);
   font-size: 1.2rem;
   line-height: 2rem;
-  
+}
+a{
+  text-decoration: none;
 }
 /* SERVICIOS */
 .servicios{
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
 }
 .servicios h2{
   padding-bottom: .5rem;
@@ -52,7 +55,7 @@ p{
 .servicios h2::after{
   height: .5rem;
   width: 7rem;
-  background-color: rebeccapurple;
+  background-color: rgb(46, 46, 139);
   content: '';
   display: block;
   margin: 1rem auto 0 auto;
@@ -76,24 +79,19 @@ p{
   padding: 1rem;
   text-align: center;
 }
+.portafolio__title{
+  margin: 5rem 0 7rem 0;
+}
 
-.listado {
+.portafolio__listado {
   margin-top: 2rem;
 }
 
 
 @media screen and (min-width: 768px) {
-  .listado {
+  .portafolio__listado {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
-  }
-}
-
-@media screen and (min-width: 1250px) {
-  .listado {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     gap: 2rem;
   }
 }

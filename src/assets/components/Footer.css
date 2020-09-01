@@ -2,7 +2,6 @@
 .footer{
     background-color: black;
     margin: 0;
-    margin-top: 5rem;
 }
 .footer__contenedor{
     display: flex;
