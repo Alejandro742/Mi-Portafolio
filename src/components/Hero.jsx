@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="contenido">
             <img src={require('../assets/img/perfil.jpg')} className="hero__img" alt="prfil_img"/>
             <h1 className="titulo">Alejandro Barba</h1>
-            <p className="hero__about">I'am web developer based in Jalisco - Mexico, I'am passionate about tech and learning new things about web development.</p>
+            <p className="hero__about">I am web developer based in Jalisco - Mexico, I am passionate about tech and learning new things about web development.</p>
           </div>
 
         </div>

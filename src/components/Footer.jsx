@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__contenedor">
         <p className="footer__copyright">
-          Hecho por <strong>Aejandro Barba</strong> &copy; 2020
+          Hecho por <strong>Alejandro Barba</strong> &copy; 2020
         </p>
         <div className="footer__redes">
           <a 

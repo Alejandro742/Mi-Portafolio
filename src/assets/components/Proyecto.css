@@ -14,18 +14,33 @@
 	transition: .4s ease-in-out;
 }
 .proyecto__shadow:hover{
-	background-color: rgba(0,0,0,.6);
+	background-color: rgba(0,0,0,.8);
 }
 .proyecto__descripcion{
-	/* position: absolute; */
 	color: white;
 	opacity: 0;
 	transition: .4s ease-in-out;
 	width: 70%;
 	margin: 0 auto;
-	/* margin-top: 8rem; */
 }
 .proyecto__shadow:hover .proyecto__descripcion{
+	opacity: 1;
+}
+.proyecto__enlace{
+	display: inline-block;
+		color: white;
+		opacity: 0;
+		transition: .4s ease-in-out;
+		margin: 0 auto;
+		margin-top: 10px;
+		font-size: 1.4rem;
+		border: 1px solid white;
+		padding: 6px 25px;
+		border-radius: 20px;
+
+
+}
+.proyecto__shadow:hover .proyecto__enlace{
 	opacity: 1;
 }
 .proyecto__img{
@@ -49,6 +64,9 @@
 @media screen and (min-width: 768px) {
 	.proyecto{
 		width: 300px;
+	}
+	.proyecto__shadow:hover{
+		background-color: rgba(0,0,0,.6);
 	}
 
 }

@@ -8,11 +8,14 @@ const Proyecto = ({ proyecto }) => {
     <Fragment>
       <div className="proyecto">
         <div className="proyecto__shadow">
-        <p className="proyecto__descripcion">{descripcion}</p>
+          <div className="proyecto__info">
+            <p className="proyecto__descripcion">{descripcion}</p>
+            <a href={github} className="proyecto__enlace">GitHub</a>
+          </div>
         </div>
         <img className="proyecto__img" src={require(`../../assets/proyectos/${src}`)} alt={titulo} />
         <div className="proyecto__contenido">
-          <a href={github} target="_blank" rel="noopener noreferrer" ><h3 className="proyecto__title">{titulo}</h3></a>
+          <h3 className="proyecto__title">{titulo}</h3>
           <div className="proyecto__tecnologias">
             {tecnologias.map(tec =>(<Tecnologia key={tec} tecnologia={tec}/>))}
           </div>

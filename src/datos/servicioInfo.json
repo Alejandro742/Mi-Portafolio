@@ -3,7 +3,7 @@
     "id": 1,
     "titulo": "BackEnd",
     "descripcion": "Experience in backend languages such as PHP,NodeJS and databses SQL & NSql",
-    "tecnologias": ["MongoDB", "MySql", "PHP", "NodeJS","API","Express"]
+    "tecnologias": ["MongoDB", "MySql", "PHP", "NodeJS","API","Express","TypeScript"]
   },
   {
     "id": 2,
