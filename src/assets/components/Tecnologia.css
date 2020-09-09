@@ -6,6 +6,8 @@
 }
 .tecnologia__img{
   width: 40px;
+  height: 40px;
+  object-fit: unset
 }
 .tecnologia__nombre{
   margin: 0;

@@ -12,6 +12,14 @@ const Navbar = () => {
       navbar.classList.add("navbar__options--showMenu");
     }
   }
+  function hideMenu(){
+    const menu = document.querySelector("#navbar");
+    // console.log(menu);
+    if(menu.classList.contains("navbar__options--showMenu")){
+      menu.classList.remove("navbar__options--showMenu");
+    }
+    
+  }
   return (
     <nav className="navbar">
       <img
@@ -27,13 +35,13 @@ const Navbar = () => {
         {/* navbar__options--showMenu */}
         <ul className="navbar__options" id="navbar">
           <li className="navbar__option">
-          <Link to="/" className="navbar__option-ahref">Home</Link>
+          <Link  onClick={hideMenu} to="/" className="navbar__option-ahref">Home</Link>
           </li>
           <li className="navbar__option">
-            <Link to="/aboutme" className="navbar__option-ahref">About Me</Link>
+            <Link  onClick={hideMenu} to="/aboutme" className="navbar__option-ahref">About Me</Link>
           </li>
           <li className="navbar__option">
-          <Link to="/portfolio" className="navbar__option-ahref">Portfolio</Link>
+          <Link  onClick={hideMenu} to="/portfolio" className="navbar__option-ahref">Portfolio</Link>
           </li>
         </ul>
       </div>
