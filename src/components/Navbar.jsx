@@ -25,7 +25,7 @@ const Navbar = () => {
       <img
         className="navbar__burger"
         alt=""
-        src={require("../assets/img/menu.png")}
+        src={require("../assets/img/menu_blanco.png")}
         onClick={showMenu}
       />
       <div className="navbar__content">
