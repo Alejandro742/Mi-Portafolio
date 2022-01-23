@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
 import Hero from './components/Hero';
 import Servicios from './components/aboutme/Servicios';
-import Proyectos from './components/portfolio/Proyectos';
 import Footer from './components/Footer';
 
 
