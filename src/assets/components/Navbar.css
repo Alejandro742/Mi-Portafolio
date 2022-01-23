@@ -73,7 +73,7 @@
   .navbar__options{
     position: unset;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     height: auto;
     width: 20%;
     padding: 0;

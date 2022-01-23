@@ -40,9 +40,9 @@ const Navbar = () => {
           <li className="navbar__option">
             <Link  onClick={hideMenu} to="/aboutme" className="navbar__option-ahref">About Me</Link>
           </li>
-          <li className="navbar__option">
+          {/* <li className="navbar__option">
           <Link  onClick={hideMenu} to="/portfolio" className="navbar__option-ahref">Portfolio</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

@@ -15,7 +15,7 @@ function App() {
         <Hero />
         <Switch>
           <Route exact path ="/aboutme" component={Servicios}/>
-          <Route exact path ="/portfolio" component={Proyectos}/>
+          {/* <Route exact path ="/portfolio" component={Proyectos}/> */}
         </Switch>
       </Router>
  

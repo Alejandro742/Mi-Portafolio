@@ -3,7 +3,7 @@
     "id": 1,
     "titulo": "BackEnd",
     "descripcion": "Experience in backend languages such as PHP,NodeJS and databses SQL & NSql",
-    "tecnologias": ["MongoDB", "MySql", "PHP", "NodeJS","API","Express","TypeScript"]
+    "tecnologias": ["MongoDB", "MySql", "PHP", "NodeJS","API","Express","TypeScript", "NestJs", "TypeORM","Sequelize","Laravel"]
   },
   {
     "id": 2,
@@ -17,14 +17,14 @@
       "JavaScript",
       "SASS",
       "Pug",
-      "Webpack",
+      "Vue",
       "TypeScript"
     ]
   },
   {
     "id": 3,
     "titulo": "Dev",
-    "descripcion": "Technology management such as version controllers, low-level languages ​​and linux distros",
-    "tecnologias": ["Git", "GitHub", "Linux", "C++","Gitlab"]
+    "descripcion": "Technologies management such as version controllers, low-level languages, linux distros and Cloud Computing.",
+    "tecnologias": ["Git", "GitHub", "Linux", "C++","Gitlab", "Docker", "Dockercompose", "Kubernetes", "CICD", "AWS", "DigitalOcean"]
   }
 ]

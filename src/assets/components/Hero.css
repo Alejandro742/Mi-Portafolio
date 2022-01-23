@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width: 100%;
 }
 .hero__shadow{
     position: absolute;
@@ -60,10 +61,10 @@
 @media screen and (min-width: 998px) {
     .hero .contenido{
         background-color: unset;
-        position: absolute;
+        /* position: absolute;
         top: 30%;
-        left: 19%;
-        margin-top: 0;
+        left: 19%; */
+        margin-top: 100px;
     }
     .hero__img{
         width: 150px;
@@ -74,4 +75,8 @@
         margin-top: 15px;
     }
 
+}
+.center-hero{
+    width: 100%;
+    margin: 0 auto;
 }
